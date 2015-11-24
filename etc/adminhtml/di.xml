@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * MultistoreSearchFields
+ *
+ * @package Genmato_MultistoreSearchFields
+ * @author  Vladimir Kerkhoff <v.kerkhoff@genmato.com>
+ * @created 2015-11-24
+ * @copyright Copyright (c) 2015 Genmato BV, https://genmato.com.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\ResourceModel\Eav\Attribute">
+        <plugin name="attribute_advanced_search_store"
+                type="\Genmato\MultistoreSearchFields\Plugin\Model\ResourceModel\Eav\Attribute"
+                sortOrder="9999"
+                />
+    </type>
+    <type name="\Magento\Catalog\Block\Adminhtml\Product\Attribute\Edit\Tab\Front">
+        <plugin name="attribute_advanced_search_store" type="Genmato\MultistoreSearchFields\Plugin\Block\Adminhtml\Product\Attribute\Edit\Tab\Front" />
+    </type>
+</config>
