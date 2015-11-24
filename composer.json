@@ -4,6 +4,12 @@
   "keywords": ["magento2", "genmato", "multistore", "search", "attributes", "fields"],
   "type": "magento2-module",
   "license": "OSL-3.0",
+  "authors": [
+    {
+      "name":"Genmato BV",
+      "email": "support@genmato.com"
+    }
+  ],
   "require": {
     "php": "~5.5.0|~5.6.0|~7.0.0"
   },
