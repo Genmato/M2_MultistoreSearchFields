@@ -25,11 +25,11 @@ This will enable the extension and run the Schema and Data scripts to create the
 Upgrades
 ====
 
-When there is a updated version available, simply run (in your Magento installation root):
+When there is a updated version available, simply run (in your Magento installation root) to download and install the updated version:
 
 `composer update`
 
-to download and install the updated version.
+
 
 Configuration
 =====
