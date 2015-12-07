@@ -1,17 +1,28 @@
 {
   "name": "genmato/multistoresearchfields",
-  "description": "Genmato Magento2 Extension Multistore Search Fields",
+  "description": "Genmato Multistore Search Fields Extension for Magento2",
   "keywords": ["magento2", "genmato", "multistore", "search", "attributes", "fields"],
+  "homepage": "https://genmato.com/magento2-multistore-search-fields",
   "type": "magento2-module",
   "license": "OSL-3.0",
   "authors": [
     {
-      "name":"Genmato BV",
-      "email": "support@genmato.com"
+      "name":"V. Kerkhoff",
+      "email": "support@genmato.com",
+      "homepage": "https://genmato.com/",
+      "role": "Developer"
     }
   ],
+  "support": {
+    "email": "support@genmato.com",
+    "docs": "https://genmato.com/manuals/magento2-multistore-search-fields"
+  },
   "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0"
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/module-store": "100.0.*",
+    "magento/module-catalog": "100.0.*",
+    "magento/module-catalog-search": "100.0.*",
+    "magento/module-eav": "100.0.*"
   },
   "autoload": {
     "files": [ "registration.php" ],
